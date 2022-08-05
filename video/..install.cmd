@@ -1,0 +1,1 @@
+cmd_usr/include/video/.install := /bin/sh ../scripts/headers_install.sh ./usr/include/video ../include/uapi/video edid.h sisfb.h uvesafb.h; /bin/sh ../scripts/headers_install.sh ./usr/include/video ./include/generated/uapi/video ; touch usr/include/video/.install
